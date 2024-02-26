@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- navbar -->
+
+   <div>
+      <nav class="navbar navbar-expand-md  bg-dark">
+         <a class="navbar-brand text-secondary " href="#">Project name</a>
+           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+         <span class="fa fa-bars text-secondary "></span>
+       </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+
+               <li class="nav-item active ">
+                <a class="nav-link text-white pr-3" href="#">Home </a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-secondary pr-3" href="#">About</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-secondary" href="#" >Contact</a>
+               </li>
+
+            </ul>
+
+            <span class="navbar-text text-light">
+            Login in as Username
+            </span>
+        </div>
+      </nav>
+   </div>
+
+ <!-- Sidebar -->
+
+   <div class="col-md-2  mt-2 mb-4 float-left">
+      <div class="card bg-light ">
+         <ul class="list-unstyled ">
+
+            <li class = "  col bg-light text-secondary mb-1 "><small>SIDEBAR</small></li>
+            <a href="#"><li class = "col-md bg-primary active text-white mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md  ">Link </li></a>
+         </ul>
+         <ul class="list-unstyled ">
+            <li class = "col bg-light  text-secondary mb-1 "><small>SIDEBAR</small></li>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md mb-1 ">Link </li></a>
+            <a href="#"><li class = "col-md  ">Link </li></a>
+         </ul>
+
+         <ul class="list-unstyled">
+            <li class = "col   text-secondary mb-1 "><small>SIDEBAR</small></li>
+            <a href="#"><li class = "col-md mb-1 ">Link</li></a>
+            <a href="#"><li class = "col-md mb-1">Link </li></a>
+            <a href="#"><li class = "col-md ">Link</li></a>
+         </ul>
+      </div>
+   </div>
+
+ <!-- Hello world -->
+
+   <div class=" card  mt-2 mr-3 ml-3 bg-light">
+      <div class=" md-4 ml-4 mr-5 mt-2 mb-4" >
+         <h1 class="mt-4"> Hello, World!</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+         <div >
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+               Learn More >>
+            </button>
+
+            <!-- Modal -->
+
+            <div class="modal" id="myModal1">
+               <div class="modal-dialog modal-dialog-scrollable ">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h4 class="modal-title">Hello,World!</h4>
+                        <button type="button" class="close" data-dismiss="modal"> &#10005;</button>
+                     </div>
+                     <div class="modal-body">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+<!--Headings -->
+
+   <div class=" row  mt-4 mr-3 ml-2 mb-2 ">
+      <div class="col-md-4 mt-4">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+
+      <div class="col-md-4 mt-4">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+      <div class="col-md-4 mt-4">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+
+      <div class="col-md-4 mt-4">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+
+      <div class="col-md-4  mt-4 ">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+      <div class="col-md-4  mt-4 mb-3">
+         <h3>Heading</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+         <button type = "button " class = "btn disabled bg-light">View Details >></button>
+      </div>
+   </div>
+
+</body>
+</html>
